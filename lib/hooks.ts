@@ -13,16 +13,3 @@ export const useSectionInView = (section: sectionName) => {
   }, [inView]);
   return { ref };
 };
-
-// export const useThemeToggle = () => {
-//   const [theme, setTheme] = useState<Theme>("light");
-//   const toggleTheme = () => {
-//     if (theme === "light") {
-//       setTheme("dark");
-//       window.localStorage.setItem("theme", "dark");
-//       return;
-//     }
-//     setTheme("light");
-//     window.localStorage.setItem("theme", "light");
-//   };
-// }

@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 
